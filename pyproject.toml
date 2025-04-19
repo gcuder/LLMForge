@@ -1,0 +1,16 @@
+[project]
+name = "llmforge"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "geraldcuder",email = "gerald.cuder@icloud.com"}
+]
+readme = "README.md"
+requires-python = ">= 3.12, <3.13"
+dependencies = [
+    "langchain (>=0.3.23,<0.4.0)"
+
+]
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
